@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build -i src/main.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyEmelianov/Static-News-Page-Tailwind.git"
+  },
+  "author": "Andrey Emelianov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyEmelianov/Static-News-Page-Tailwind/issues"
+  },
+  "homepage": "https://github.com/AndreyEmelianov/Static-News-Page-Tailwind#readme",
+  "devDependencies": {
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}
